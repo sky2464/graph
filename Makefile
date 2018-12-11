@@ -48,8 +48,8 @@ $(PROGRAM_1): $(ALL_OBJ1)
 	g++ $(C++FLAG) -o $(EXEC_DIR)/$@ $(ALL_OBJ1) $(INCLUDES) $(LIBS_ALL)
 
 
-ALL_OBJ2=FindPath.o 
-PROGRAM_2=FindPath
+ALL_OBJ2=FindPaths.o 
+PROGRAM_2=FindPaths
 $(PROGRAM_2): $(ALL_OBJ2)
 	g++ $(C++FLAG) -o $(EXEC_DIR)/$@ $(ALL_OBJ2) $(INCLUDES) $(LIBS_ALL)
 
